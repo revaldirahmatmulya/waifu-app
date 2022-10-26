@@ -33,7 +33,7 @@ class DetailPage extends StatelessWidget {
     );
   }
 
-  Container titleSection(String namaWisata, String sub) {
+  Container titleSection(String nama, String sub) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
       child: Row(
@@ -45,7 +45,7 @@ class DetailPage extends StatelessWidget {
               children: [
                 Container(
                   margin: const EdgeInsets.only(bottom: 8),
-                  child: Text(namaWisata,
+                  child: Text(nama,
                       style: const TextStyle(
                           fontSize: 18, fontWeight: FontWeight.bold)),
                 ),
